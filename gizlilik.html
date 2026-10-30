@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arasta Gizlilik Politikası</title>
+<style>
+  :root{--bg:#FBF6EC;--fg:#2B2118;--muted:#6B5E50;--nar:#E4572E;--line:#E2D6C2}
+  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  main{max-width:720px;margin:0 auto;padding:40px 20px 80px}
+  h1{font-size:30px;margin:0 0 4px}
+  h2{font-size:20px;margin:32px 0 8px;padding-top:16px;border-top:1px solid var(--line)}
+  .sub{color:var(--muted);margin:0 0 24px}
+  ul{padding-left:20px} li{margin:4px 0}
+  a{color:var(--nar)}
+  table{border-collapse:collapse;width:100%;font-size:15px} td,th{border:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}
+  th{background:#F4EAD5}
+</style>
+</head>
+<body>
+<main>
+<h1>Arasta Gizlilik Politikası</h1>
+<p class="sub">Son güncelleme: 30 Ekim 2026 · Uygulama: Arasta: 81 İl Ticaret Oyunu (Android, paket adı <code>com.art.arasta</code>)</p>
+
+<p>Arasta, Türkiye'nin 81 ilinde geçen çok oyunculu bir ticaret oyunudur. Bu metin, oyunu kullandığınızda hangi verilerin hangi amaçla işlendiğini, kimlerle paylaşıldığını ve haklarınızı açıklar. 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve Google Play politikaları gözetilerek hazırlanmıştır.</p>
+
+<h2>1. Veri sorumlusu ve iletişim</h2>
+<p>Veri sorumlusu Arasta'nın geliştiricisi (Art) olup iletişim adresi <a href="mailto:strafegottes.tv@gmail.com">strafegottes.tv@gmail.com</a>'dur. Gizlilik ve hesap talepleri için bu adrese yazabilirsiniz.</p>
+
+<h2>2. İşlenen veriler</h2>
+<table>
+<tr><th>Veri</th><th>Kaynak</th><th>Amaç</th></tr>
+<tr><td>Google hesabı kimliği ve e-posta adresi</td><td>Google ile giriş</td><td>Hesabınızı oluşturmak ve tanımak</td></tr>
+<tr><td>Esnaf adı (takma ad), seviye, oyun ilerlemesi, dükkân ve pazar işlemleri</td><td>Oyun içi etkinliğiniz</td><td>Oyunun çalışması, sıralamalar, sezon ödülleri</td></tr>
+<tr><td>Sohbet mesajları</td><td>Oyun içi sohbet</td><td>Diğer oyunculara iletmek; kural ihlallerini otomatik denetlemek</td></tr>
+<tr><td>Cihaz kimliği (Android ID'nin özeti) ve IP adresinin özeti</td><td>Cihazınız</td><td>Aynı kişinin birden çok hesapla pazarı bozmasını (yan hesap) önlemek. Ham IP saklanmaz, 24 saat sonra özet silinir.</td></tr>
+<tr><td>Bildirim belirteci (FCM token)</td><td>Cihazınız</td><td>Hasat, satış ve gazete bildirimleri göndermek (Ayarlar'dan kapatılabilir)</td></tr>
+<tr><td>Satın alma belirteçleri ve sipariş kimlikleri</td><td>Google Play Faturalandırma</td><td>Satın aldığınız içeriği hesabınıza işlemek, iade ve aboneliği yönetmek. Kart bilgisi bize ulaşmaz.</td></tr>
+<tr><td>Reklam kimliği</td><td>Google AdMob</td><td>Yalnızca sizin başlattığınız ödüllü reklamları göstermek ve ödülü doğrulamak</td></tr>
+</table>
+
+<h2>3. Hukuki dayanak</h2>
+<p>Hesap, oyun ilerlemesi ve satın almalar sözleşmenin ifası; yan hesap tespiti ve sohbet denetimi meşru menfaat (adil oyun ortamı); bildirimler ve reklam kimliği açık rızanız (cihaz izinleri ve ayarlar) kapsamında işlenir.</p>
+
+<h2>4. Otomatik denetim (yapay zekâ)</h2>
+<p>Sohbet mesajları ve itiraz metinleri, hakaret, dolandırıcılık ve kişisel veri paylaşımı gibi ihlalleri tespit etmek için otomatik olarak değerlendirilir. Değerlendirmede Google Gemini modeli kullanılır; modele yalnızca mesaj metni gönderilir, kimlik bilgisi gönderilmez. Her ceza oyun içindeki Kamu Defteri'nde gerekçesiyle görünür ve itiraz edilebilir; hesap kapatma kararını yalnızca insan verir.</p>
+
+<h2>5. Paylaşım ve yurt dışına aktarım</h2>
+<ul>
+<li><b>Supabase</b> (veritabanı ve sunucu, Frankfurt/Almanya): tüm oyun verisi burada tutulur.</li>
+<li><b>Google</b>: giriş (Google Sign-In), bildirim (Firebase Cloud Messaging), ödüllü reklam (AdMob), satın alma (Play Faturalandırma), sohbet denetimi (Gemini API).</li>
+</ul>
+<p>Verileriniz satılmaz, reklam amacıyla üçüncü taraflarla paylaşılmaz. Sunucular Avrupa Birliği'nde olduğundan veriler yurt dışına aktarılır; aktarım şifreli bağlantıyla (TLS) yapılır.</p>
+
+<h2>6. Saklama süresi</h2>
+<p>Hesap verileri hesabınız açık kaldığı sürece saklanır. Silme talebinizden 7 gün sonra hesap ve kişisel veriler kalıcı olarak silinir; bu süre içinde giriş yaparak vazgeçebilirsiniz. Pazar işlem kayıtları, kişiyle ilişkisi kesilmiş (anonim) biçimde ekonomi istatistikleri için tutulabilir. Yasal yükümlülük gerektiren satın alma kayıtları ilgili mevzuattaki süre kadar saklanır.</p>
+
+<h2>7. Haklarınız</h2>
+<p>KVKK 11. madde kapsamında verilerinize erişme, düzeltme, silme, işlemeye itiraz etme ve veri taşınabilirliği haklarınız vardır. Uygulama içinde Ayarlar → "Hesabımı sil" ile hesabınızı silebilir; uygulamaya erişiminiz yoksa <a href="hesap-silme.html">hesap silme sayfasından</a> talep edebilirsiniz. Diğer talepler için yukarıdaki e-posta adresine yazın; en geç 30 gün içinde yanıtlanır.</p>
+
+<h2>8. Çocuklar</h2>
+<p>Arasta 13 yaş ve üzeri kullanıcılar içindir. 13 yaşından küçük olduğunu öğrendiğimiz hesaplar silinir.</p>
+
+<h2>9. Güvenlik</h2>
+<p>Veriler şifreli bağlantıyla taşınır, erişim satır düzeyinde yetkilendirmeyle (RLS) sınırlandırılır, gizli anahtarlar uygulamada tutulmaz. Hiçbir sistem yüzde yüz güvenli değildir; bir ihlal olursa etkilenen kullanıcılar ve yetkili kurum bilgilendirilir.</p>
+
+<h2>10. Değişiklikler</h2>
+<p>Bu politika güncellendiğinde tarih değişir ve önemli değişiklikler oyun içi Çarşı Postası duyurusuyla bildirilir.</p>
+</main>
+</body>
+</html>
